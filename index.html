@@ -1,0 +1,44 @@
+<DDCTYPE html>
+<html>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='stylesheet.css' rel='stylesheet'>
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src='scripts.js'></script>
+<head>
+	
+</head>
+<body>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-xs-14 text-center'>
+      	<h1 class='title'>POMODORO CLOCK</h1>
+    	</div>
+    	<div id='session' class='unit col-xs-12 text-center'>
+      	<h2>Session</h2>
+      	<div class='timeSet'>
+        	<button id='sesMinus'>-</button>
+        	<input class='display text-center' id='sesDisplay' readonly></input>
+        	<button id='sesPlus'>+</button>
+       		<p>Min</p>
+      	</div>
+      	<div class='timeDisplay' id='clock'></div>
+    	</div>
+    	<div id='break' class='unit col-xs-12 text-center'>
+      	<h2>Break</h2>
+      	<div class='timeSet'>
+        	<button id='brkMinus'>-</button>
+        	<input class='display text-center' id='brkDisplay' readonly></input>
+       		<button id='brkPlus'>+</button>
+       		<p>Min</p>
+      	</div>
+      	<div class='timeDisplay' id='breakClock'>00:00:00</div>
+    	</div>
+  	</div>
+  	<div class='col-xs-12 text-center'>
+   		<button class='buttons' id='start'>START</button>
+   		<button class='buttons' id='reset'>RESET</button>
+   		<button class='buttons' id='pomo'>25 MIN POMO</button>
+  	</div>
+	</div>
+</body>
+</html>	
